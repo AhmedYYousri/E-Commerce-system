@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4415e97e4e8842c9aa1e3909163cbb19" Name="Diagram1">
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.SlideImage" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_MemberRole" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_Members" Width="1.5" PointX="0.875" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_Roles" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_ShoppingDetails" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tble_Cart" Width="1.5" PointX="5.25" PointY="1.75" IsExpanded="true" />
+        <AssociationConnector Association="dbMyOnilineShoppingModel.FK__Tbl_Shopp__Membe__1BFD2C07" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_Category" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_CartStatus" Width="1.5" PointX="8.375" PointY="6.75" />
+        <EntityTypeShape EntityType="dbMyOnilineShoppingModel.Tbl_Product" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="dbMyOnilineShoppingModel.FK__Tbl_Produ__Categ__145C0A3F" />
+        <AssociationConnector Association="dbMyOnilineShoppingModel.FK__Tble_Cart__Produ__21B6055D" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
